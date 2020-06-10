@@ -42,7 +42,7 @@ User.defaultProps = {
 
 User.propTypes = {
   name: PropTypes.string,
-  age: PropTypes.number.isRequired,
+  age: PropTypes.number.isRequired,//値を設定してないとworningが出る　デフォルトが設定されていればworningはでない
 }
 
 export default App;
